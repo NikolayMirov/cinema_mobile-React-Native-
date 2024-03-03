@@ -1,30 +1,36 @@
 {
-  "expo": {
-    "name": "red",
-    "slug": "red",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "Morello-cinema",
+		"slug": "morello-cinema",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/icon.png",
+		"userInterfaceStyle": "dark",
+		"splash": {
+			"image": "./app/assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#111111"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"requireFullScreen": true,
+			"bundleIdentifier": "com.densta21.morello-cinema"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./app/assets/adaptive-icon.png",
+				"backgroundColor": "#111111"
+			},
+			"package": "com.densta21.morello-cinema"
+		},
+		"web": {
+			"favicon": "./app/assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "cbdaa1c3-f43d-4a04-b766-700d350eb5f1"
+			}
+		}
+	}
 }
